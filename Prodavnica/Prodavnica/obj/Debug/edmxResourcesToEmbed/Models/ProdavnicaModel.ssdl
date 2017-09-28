@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="prodavnicaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="kategorija">
+    <Key>
+      <PropertyRef Name="idKategorija" />
+    </Key>
+    <Property Name="idKategorija" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nazivKategorija" Type="nvarchar" MaxLength="250" Nullable="false" />
+  </EntityType>
+  <EntityType Name="korisnik">
+    <Key>
+      <PropertyRef Name="idKorisnik" />
+    </Key>
+    <Property Name="idKorisnik" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="prezime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="datumRegistracije" Type="date" Nullable="false" />
+    <Property Name="datumPoslednjegLogovanja" Type="datetime" Nullable="false" />
+    <Property Name="role" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="narudzbenica">
+    <Key>
+      <PropertyRef Name="idNarudzbenica" />
+    </Key>
+    <Property Name="idNarudzbenica" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="datumFormiranjaNar" Type="datetime" Nullable="false" />
+    <Property Name="datumIzmeneNar" Type="datetime" Nullable="false" />
+    <Property Name="slanjeIme" Type="nvarchar" MaxLength="50" />
+    <Property Name="slanjePrezime" Type="nvarchar" MaxLength="50" />
+    <Property Name="slanjeAdresa" Type="nvarchar" MaxLength="50" />
+    <Property Name="slanjeGrad" Type="nvarchar" MaxLength="50" />
+    <Property Name="slanjeDrzava" Type="nvarchar" MaxLength="50" />
+    <Property Name="slanjeZIP" Type="nvarchar" MaxLength="50" />
+    <Property Name="placanjeIme" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="placanjePrezime" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="placanjeAdresa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="placanjeGrad" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="placanjeDrzava" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="placanjeZIP" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="postarina" Type="float" Nullable="false" />
+    <Property Name="idKorisnik" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="narudzbenicaProizvod">
+    <Key>
+      <PropertyRef Name="idNarProizvod" />
+    </Key>
+    <Property Name="idNarProizvod" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kolicina" Type="int" Nullable="false" />
+    <Property Name="idProizvod" Type="int" Nullable="false" />
+    <Property Name="idNarudzbenica" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="proizvod">
+    <Key>
+      <PropertyRef Name="idProizvod" />
+    </Key>
+    <Property Name="idProizvod" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nazivProizvod" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="opisProizvod" Type="ntext" />
+    <Property Name="slikaProizvod" Type="nvarchar" MaxLength="250" />
+    <Property Name="cenaProizvod" Type="float" Nullable="false" />
+    <Property Name="popustProizvod" Type="int" />
+    <Property Name="statusProizvod" Type="int" Nullable="false" />
+    <Property Name="datumUnosaProizvod" Type="datetime" Nullable="false" />
+    <Property Name="datumIzmeneProizvod" Type="datetime" />
+    <Property Name="idKategorija" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="slike">
+    <Key>
+      <PropertyRef Name="idSlika" />
+    </Key>
+    <Property Name="idSlika" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idProizvod" Type="int" Nullable="false" />
+    <Property Name="putanjaSlika" Type="nvarchar" MaxLength="1000" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_narudzbenica_korisnik">
+    <End Role="korisnik" Type="Self.korisnik" Multiplicity="1" />
+    <End Role="narudzbenica" Type="Self.narudzbenica" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="korisnik">
+        <PropertyRef Name="idKorisnik" />
+      </Principal>
+      <Dependent Role="narudzbenica">
+        <PropertyRef Name="idKorisnik" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_narudzbenicaProizvod_narudzbenica">
+    <End Role="narudzbenica" Type="Self.narudzbenica" Multiplicity="1" />
+    <End Role="narudzbenicaProizvod" Type="Self.narudzbenicaProizvod" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="narudzbenica">
+        <PropertyRef Name="idNarudzbenica" />
+      </Principal>
+      <Dependent Role="narudzbenicaProizvod">
+        <PropertyRef Name="idNarudzbenica" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_narudzbenicaProizvod_proizvod">
+    <End Role="proizvod" Type="Self.proizvod" Multiplicity="1" />
+    <End Role="narudzbenicaProizvod" Type="Self.narudzbenicaProizvod" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="proizvod">
+        <PropertyRef Name="idProizvod" />
+      </Principal>
+      <Dependent Role="narudzbenicaProizvod">
+        <PropertyRef Name="idProizvod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_proizvod_kategorija">
+    <End Role="kategorija" Type="Self.kategorija" Multiplicity="1" />
+    <End Role="proizvod" Type="Self.proizvod" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="kategorija">
+        <PropertyRef Name="idKategorija" />
+      </Principal>
+      <Dependent Role="proizvod">
+        <PropertyRef Name="idKategorija" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_slike_proizvod">
+    <End Role="proizvod" Type="Self.proizvod" Multiplicity="1" />
+    <End Role="slike" Type="Self.slike" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="proizvod">
+        <PropertyRef Name="idProizvod" />
+      </Principal>
+      <Dependent Role="slike">
+        <PropertyRef Name="idProizvod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="prodavnicaModelStoreContainer">
+    <EntitySet Name="kategorija" EntityType="Self.kategorija" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="korisnik" EntityType="Self.korisnik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="narudzbenica" EntityType="Self.narudzbenica" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="narudzbenicaProizvod" EntityType="Self.narudzbenicaProizvod" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="proizvod" EntityType="Self.proizvod" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="slike" EntityType="Self.slike" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_narudzbenica_korisnik" Association="Self.FK_narudzbenica_korisnik">
+      <End Role="korisnik" EntitySet="korisnik" />
+      <End Role="narudzbenica" EntitySet="narudzbenica" />
+    </AssociationSet>
+    <AssociationSet Name="FK_narudzbenicaProizvod_narudzbenica" Association="Self.FK_narudzbenicaProizvod_narudzbenica">
+      <End Role="narudzbenica" EntitySet="narudzbenica" />
+      <End Role="narudzbenicaProizvod" EntitySet="narudzbenicaProizvod" />
+    </AssociationSet>
+    <AssociationSet Name="FK_narudzbenicaProizvod_proizvod" Association="Self.FK_narudzbenicaProizvod_proizvod">
+      <End Role="proizvod" EntitySet="proizvod" />
+      <End Role="narudzbenicaProizvod" EntitySet="narudzbenicaProizvod" />
+    </AssociationSet>
+    <AssociationSet Name="FK_proizvod_kategorija" Association="Self.FK_proizvod_kategorija">
+      <End Role="kategorija" EntitySet="kategorija" />
+      <End Role="proizvod" EntitySet="proizvod" />
+    </AssociationSet>
+    <AssociationSet Name="FK_slike_proizvod" Association="Self.FK_slike_proizvod">
+      <End Role="proizvod" EntitySet="proizvod" />
+      <End Role="slike" EntitySet="slike" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

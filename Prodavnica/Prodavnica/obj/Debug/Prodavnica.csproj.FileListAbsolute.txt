@@ -1,0 +1,422 @@
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\ApplicationInsights.config
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\csc.exe
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\vbc.exe
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Prodavnica.dll.config
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Prodavnica.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Prodavnica.pdb
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\EntityFramework.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Newtonsoft.Json.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Cors.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\EntityFramework.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\Newtonsoft.Json.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\obj\Debug\Prodavnica.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\obj\Debug\Prodavnica.pdb
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.dll
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.xml
+C:\Users\nikolic.jelena\Desktop\ilija\Prodavnica\Prodavnica\obj\Debug\Prodavnica.csprojResolveAssemblyReference.cache
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\ApplicationInsights.config
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\csc.exe
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\vbc.exe
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll.config
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.pdb
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Owin.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Cors.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.xml
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.csprojResolveAssemblyReference.cache
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.dll
+C:\Users\vadmin\Desktop\web prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.pdb
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\ApplicationInsights.config
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\csc.exe
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\vbc.exe
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll.config
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.pdb
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Cors.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.xml
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.csprojResolveAssemblyReference.cache
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.pdb
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\itextsharp.dll
+C:\Users\nikolic.jelena\Desktop\ilija\web prodavnica\Prodavnica\Prodavnica\bin\itextsharp.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\ApplicationInsights.config
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\csc.exe
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Collections.Immutable.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Reflection.Metadata.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\vbc.exe
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe.config
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll.config
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.pdb
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\itextsharp.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Owin.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Cors.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\itextsharp.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.xml
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.csprojResolveAssemblyReference.cache
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.dll
+D:\MSDN\Web\Prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.pdb
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\ApplicationInsights.config
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\csc.exe
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Collections.Immutable.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\System.Reflection.Metadata.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\vbc.exe
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe.config
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll.config
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Prodavnica.pdb
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\itextsharp.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Agent.Intercept.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Cors.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\itextsharp.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\Newtonsoft.Json.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.csprojResolveAssemblyReference.cache
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\Prodavnica\obj\Debug\Prodavnica.pdb
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\ApplicationInsights.config
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\csc.exe
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\System.Collections.Immutable.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\System.Reflection.Metadata.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\vbc.exe
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\roslyn\VBCSCompiler.exe.config
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Prodavnica.dll.config
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Prodavnica.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Prodavnica.pdb
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\EntityFramework.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\itextsharp.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.Agent.Intercept.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Newtonsoft.Json.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Cors.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\EntityFramework.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\EntityFramework.SqlServer.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\itextsharp.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.DependencyCollector.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.Web.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AI.WindowsServer.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.ApplicationInsights.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Cors.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.Cors.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.Owin.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\Newtonsoft.Json.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Net.Http.Formatting.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\bin\System.Web.Http.WebHost.xml
+D:\WEB\WebApp\Prodavnica\Prodavnica\obj\Debug\Prodavnica.csprojResolveAssemblyReference.cache
+D:\WEB\WebApp\Prodavnica\Prodavnica\obj\Debug\Prodavnica.dll
+D:\WEB\WebApp\Prodavnica\Prodavnica\obj\Debug\Prodavnica.pdb

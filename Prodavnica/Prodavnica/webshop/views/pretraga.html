@@ -1,0 +1,41 @@
+<!--product-starts-->
+
+<div class="product">
+        <div class="container">
+                <h2>Rezultati pretrage za pojam: <em>{{ term }}</em></h2>
+                <h3 ng-show="messageresults!=''">{{ messageresults }}</h3>
+            <div class="product-top">
+                <div class="product-one">
+                    <div class="col-md-3 product-left" data-ng-repeat="proizvod in proizvodi">
+                        <div class="product-main simpleCart_shelfItem">
+                            <a href="#!/proizvodi/{{proizvod.nazivKategorija}}/{{proizvod.idProizvod}}" class="mask">
+                                <img class="img-responsive zoom-img" ng-src="../slike/{{proizvod.slikaProizvod}}" alt="" /></a>
+                            <div class="product-bottom">
+                                <h3>{{proizvod.nazivProizvod}}</h3>
+                                <p>Pogledajte</p>
+                                 <h4> 
+                                <span class=" item_price" data-ng-if="proizvod.popustProizvod!=0" ><s> {{proizvod.cenaProizvod }} Rsd</s></span><br/>
+                                <span class=" item_price " style="color:brown;"> {{getPrice(proizvod.cenaProizvod ,proizvod.popustProizvod)}} Rsd</span></h4>
+                                <ngcart-addtocart id="{{ proizvod.idProizvod }}" 
+                                                name="{{ proizvod.nazivProizvod }}" 
+                                                price="{{ getPrice(proizvod.cenaProizvod ,proizvod.popustProizvod) }}" 
+                                                quantity="1" 
+                                                quantity-max="30" 
+                                                data="proizvod"
+                                                template-url="template/ngCart/dodajukorpu.html">
+                                    </ngcart-addtocart>
+                                
+                            
+                                
+                            </div>
+                            <div class="srch" data-ng-if="proizvod.popustProizvod!=0">
+                                <span>-{{proizvod.popustProizvod}}%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product-end-->

@@ -1,0 +1,51 @@
+<div class="account">
+    <div class="container">
+        <div class="account-top heading">
+                <h2>Registracija</h2>
+        </div>
+        <div class="account-main">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 ">
+               
+                <form class="form-login" name="registerForm" ng-submit="register()" novalidate>
+                    <div class="form-group" ng-class="{ 'has-error' : registerForm.ime.$invalid && !registerForm.ime.$pristine  }">
+                        <label for="ime">Ime <small>(obavezno)</small></label>
+                        <input type="text" class="form-control" id="ime" name="ime" placeholder="Ime"  ng-model="registration.ime" required>
+                        <p ng-show="registerForm.ime.$invalid && !registerForm.ime.$pristine " class="help-block">Morate uneti Ime.</p>
+                        
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' :registerForm.prezime.$invalid && !registerForm.prezime.$pristine}">
+                        <label for="prezime">Prezime<small>(obavezno)</small></label>
+                        <input type="text" class="form-control" id="prezime" name="prezime" placeholder="Prezime" ng-model="registration.prezime" required>
+                        <p ng-show="registerForm.prezime.$invalid && !registerForm.prezime.$pristine" class="help-block">Morate uneti Prezime.</p>
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' :registerForm.email.$invalid && !registerForm.email.$pristine}">
+                        <label for="email">Email<small>(obavezno)</small></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" ng-model="registration.email" required>
+                        <p ng-show="registerForm.email.$invalid && !registerForm.email.$pristine" class="help-block">Morate uneti Email.</p>
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' :registerForm.username.$invalid && !registerForm.username.$pristine}">
+                        <label for="exampleInputUsername">Korisnicko ime<small>(obavezno)</small></label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Korisničko ime" ng-model="registration.username" required>
+                        <p ng-show="registerForm.username.$invalid && !registerForm.username.$pristine" class="help-block">Morate uneti Korisničko ime.</p>
+                    </div>
+                    <div class="form-group" ng-class="{ 'has-error' :registerForm.password.$invalid && !registerForm.password.$pristine}">
+                        <label for="exampleInputPassword">Lozinka<small>(obavezno)</small></label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Lozinka" ng-model="registration.password" required>
+                        <p ng-show="registerForm.password.$invalid && !registerForm.password.$pristine" class="help-block">Morate uneti Lozinku.</p>
+                    </div>
+
+                    <div class="form-group" ng-class="{ 'has-error' :registerForm.$invalid && !registerForm.$pristine}">
+                    <button type="submit"  class="btn btn-default" >Registruj se</button>
+                    <p ng-show="registerForm.$invalid  && !registerForm.$pristine" class="help-block">Morate popuniti sva tražena polja.</p>
+                    <div data-ng-hide="message == ''" data-ng-class="(savedSuccessfully) ? 'alert alert-success' : 'alert alert-danger'">
+                        {{message}}
+                    </div>
+                    </div>
+
+                </form>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>

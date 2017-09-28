@@ -1,0 +1,76 @@
+<!--banner-starts-->
+<div class="bnr" id="home">
+    <div id="top" class="callbacks_container">
+        <ul class="rslides" id="slider4">
+            <li>
+                <img src="images/bnr-1.jpg" alt="" />
+            </li>
+            <li>
+                <img src="images/bnr-2.jpg" alt="" />
+            </li>
+            <li>
+                <img src="images/bnr-3.jpg" alt="" />
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix"> </div>
+</div>
+<!--banner-ends-->
+<!--Slider-Starts-Here-->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+        // Slideshow 4
+        $("#slider4").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+</script>
+<!--End-slider-script-->
+<!--product-starts-->
+<div class="product">
+    <div class="container">
+        <div class="product-top">
+            <div class="product-one">
+                <div class="col-md-3 product-left" data-ng-repeat="proizvod in proizvodi">
+                    <div class="product-main simpleCart_shelfItem">
+                        <a href="#!/proizvodi/{{proizvod.nazivKategorija}}/{{proizvod.idProizvod}}" class="mask">
+                            <img class="img-responsive zoom-img" ng-src="../slike/{{proizvod.slike[0].putanjaSlika}}" alt="" /></a>
+                        <div class="product-bottom">
+                            <h3>{{proizvod.nazivProizvod}}</h3>
+                            <p>Pogledajte</p>
+                            <h4> 
+                                    <span class="item_price" data-ng-if="proizvod.popustProizvod!=0" ><s> {{proizvod.cenaProizvod }} Rsd</s></span><br/>
+                                    <span class="item_price " style="color:brown;"> {{getPrice(proizvod.cenaProizvod ,proizvod.popustProizvod)}} Rsd</span></h4>
+                                    <ngcart-addtocart id="{{ proizvod.idProizvod }}" 
+                                                    name="{{ proizvod.nazivProizvod }}" 
+                                                    price="{{ getPrice(proizvod.cenaProizvod ,proizvod.popustProizvod) }}"
+                                                    quantity="1" 
+                                                    quantity-max="30" 
+                                                    data="proizvod"
+                                                    template-url="template/ngCart/dodajukorpu.html">
+                                        </ngcart-addtocart>
+                        </div>
+                        <div class="srch" data-ng-if="proizvod.popustProizvod!=0">
+                            <span>-{{proizvod.popustProizvod}}%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--product-end-->

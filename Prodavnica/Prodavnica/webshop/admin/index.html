@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin WebShop</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--theme-style-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../css/admin.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+
+    <script src="../js/jquery-1.11.0.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+</head>
+
+<body>
+    <div ng-app="WebApiAdmin" data-ng-controller="adminController">
+        <!--top-header-->
+        <div class="top-header top-header-admin">
+            <div class="container">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                            <a ng-href="#!" class="navbar-brand">Administracija</a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a ng-href="#!korisnici" class="box">Korisnici</a></li>
+                                <li><a ng-href="#!kategorije" class="box">Kategorije</a></li>
+                                <li><a ng-href="#!proizvodi" class="box">Proizvod</a></li>
+                                <li> <a ng-href="#!narudzbenice" class="box">Narudzbence</a></li>
+                                
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                    <li> <a ng-href="/webshop" >Vrati se na sajt</a></li>
+                                    <li><div class="cart box_1">
+                                            <div class="top-header-user">
+                                                <span data-ng-hide="!authentication.isAuth">{{authentication.username}}</span>
+                                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                            </div>
+                                            <div>
+                
+                                                <a data-ng-hide="!authentication.isAuth" href="" data-ng-click="logOut()" class="login">  Odjava</a>
+                                                <a data-ng-hide="authentication.isAuth" ng-href="#!login" class="login">Prijava</a></div>
+                
+                                            <div class="clearfix"> </div>
+                                        </div></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+        <!--top-header-->
+        <br/>
+        <!-- ng-view -->
+        <div class="main-admin-view">
+        <div class="container">
+            <div class="row">
+
+                <div data-ng-view="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <!-- end-ng-view -->
+
+
+        <!--footer-starts-->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-top">
+
+                    <div class="col-md-12">
+                        <p> © 2017 Satovi. Sva prava rezervisana </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <!--footer-end-->
+    </div>
+
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-route/angular-route.js"></script>
+    <script src="../node_modules/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script src="../node_modules/ng-file-upload/dist/ng-file-upload.min.js"></script>
+    <!-- <script src="node_modules/angular/loading-bar.js"></script>-->
+
+    <!--<script src="node_modules/angular/bootstrap.js"></script>-->
+    
+    <script src="appadmin.js"></script>
+
+    <!-- services -->
+    <script src="services/authService.js"></script>
+    <script src="services/authInterceptorService.js"></script>
+    <script src="services/dataService.js"></script>
+
+    <!-- controllers  -->
+    <script src="controllers/adminController.js"></script>
+    <script src="controllers/loginAdminController.js"></script>
+    <script src="controllers/korisniciAdminController.js"></script>
+    <script src="controllers/kategorijeAdminController.js"></script>
+    <script src="controllers/narudzbeniceAdminController.js"></script>
+    <script src="controllers/proizvodiAdminController.js"></script>
+
+
+
+</body>
+
+</html>

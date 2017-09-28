@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="prodavnicaModelStoreContainer" CdmEntityContainer="prodavnicaEntities">
+    <EntitySetMapping Name="kategorija">
+      <EntityTypeMapping TypeName="prodavnicaModel.kategorija">
+        <MappingFragment StoreEntitySet="kategorija">
+          <ScalarProperty Name="idKategorija" ColumnName="idKategorija" />
+          <ScalarProperty Name="nazivKategorija" ColumnName="nazivKategorija" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="korisnik">
+      <EntityTypeMapping TypeName="prodavnicaModel.korisnik">
+        <MappingFragment StoreEntitySet="korisnik">
+          <ScalarProperty Name="idKorisnik" ColumnName="idKorisnik" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="ime" ColumnName="ime" />
+          <ScalarProperty Name="prezime" ColumnName="prezime" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="datumRegistracije" ColumnName="datumRegistracije" />
+          <ScalarProperty Name="datumPoslednjegLogovanja" ColumnName="datumPoslednjegLogovanja" />
+          <ScalarProperty Name="role" ColumnName="role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="narudzbenica">
+      <EntityTypeMapping TypeName="prodavnicaModel.narudzbenica">
+        <MappingFragment StoreEntitySet="narudzbenica">
+          <ScalarProperty Name="idNarudzbenica" ColumnName="idNarudzbenica" />
+          <ScalarProperty Name="datumFormiranjaNar" ColumnName="datumFormiranjaNar" />
+          <ScalarProperty Name="datumIzmeneNar" ColumnName="datumIzmeneNar" />
+          <ScalarProperty Name="slanjeIme" ColumnName="slanjeIme" />
+          <ScalarProperty Name="slanjePrezime" ColumnName="slanjePrezime" />
+          <ScalarProperty Name="slanjeAdresa" ColumnName="slanjeAdresa" />
+          <ScalarProperty Name="slanjeGrad" ColumnName="slanjeGrad" />
+          <ScalarProperty Name="slanjeDrzava" ColumnName="slanjeDrzava" />
+          <ScalarProperty Name="slanjeZIP" ColumnName="slanjeZIP" />
+          <ScalarProperty Name="placanjeIme" ColumnName="placanjeIme" />
+          <ScalarProperty Name="placanjePrezime" ColumnName="placanjePrezime" />
+          <ScalarProperty Name="placanjeAdresa" ColumnName="placanjeAdresa" />
+          <ScalarProperty Name="placanjeGrad" ColumnName="placanjeGrad" />
+          <ScalarProperty Name="placanjeDrzava" ColumnName="placanjeDrzava" />
+          <ScalarProperty Name="placanjeZIP" ColumnName="placanjeZIP" />
+          <ScalarProperty Name="postarina" ColumnName="postarina" />
+          <ScalarProperty Name="idKorisnik" ColumnName="idKorisnik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="narudzbenicaProizvod">
+      <EntityTypeMapping TypeName="prodavnicaModel.narudzbenicaProizvod">
+        <MappingFragment StoreEntitySet="narudzbenicaProizvod">
+          <ScalarProperty Name="idNarProizvod" ColumnName="idNarProizvod" />
+          <ScalarProperty Name="kolicina" ColumnName="kolicina" />
+          <ScalarProperty Name="idProizvod" ColumnName="idProizvod" />
+          <ScalarProperty Name="idNarudzbenica" ColumnName="idNarudzbenica" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="proizvod">
+      <EntityTypeMapping TypeName="prodavnicaModel.proizvod">
+        <MappingFragment StoreEntitySet="proizvod">
+          <ScalarProperty Name="idProizvod" ColumnName="idProizvod" />
+          <ScalarProperty Name="nazivProizvod" ColumnName="nazivProizvod" />
+          <ScalarProperty Name="opisProizvod" ColumnName="opisProizvod" />
+          <ScalarProperty Name="slikaProizvod" ColumnName="slikaProizvod" />
+          <ScalarProperty Name="cenaProizvod" ColumnName="cenaProizvod" />
+          <ScalarProperty Name="popustProizvod" ColumnName="popustProizvod" />
+          <ScalarProperty Name="statusProizvod" ColumnName="statusProizvod" />
+          <ScalarProperty Name="datumUnosaProizvod" ColumnName="datumUnosaProizvod" />
+          <ScalarProperty Name="datumIzmeneProizvod" ColumnName="datumIzmeneProizvod" />
+          <ScalarProperty Name="idKategorija" ColumnName="idKategorija" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="slike">
+      <EntityTypeMapping TypeName="prodavnicaModel.slike">
+        <MappingFragment StoreEntitySet="slike">
+          <ScalarProperty Name="putanjaSlika" ColumnName="putanjaSlika" />
+          <ScalarProperty Name="idProizvod" ColumnName="idProizvod" />
+          <ScalarProperty Name="idSlika" ColumnName="idSlika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

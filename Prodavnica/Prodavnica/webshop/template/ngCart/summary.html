@@ -1,0 +1,10 @@
+<a ng-href="#!/korpa">
+		<div class="total">
+			<span class="simpleCart_total">
+					{{ ngCart.getTotalItems() }} <ng-pluralize count="ngCart.getTotalItems()" when="{1: 'proizvod', 'other':'proizvoda'}"></ng-pluralize>	
+			</span></div>
+		<img src="images/cart-1.png" alt="" />
+	
+	<p class="simpleCart_empty" >Pogledajte</p>
+</a>
+	<div class="clearfix"> </div>

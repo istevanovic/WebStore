@@ -1,0 +1,37 @@
+<!--account-starts-->
+<div class="account">
+		<div class="container">
+		<div class="account-top heading">
+				<h2>NALOG KORISNIKA</h2>
+            </div>
+            <form>
+			<div class="account-main">
+				<div class="col-md-6 account-left">
+					<h3>Prijava</h3>
+					<div class="account-bottom">
+                          
+                            <input type="text"  id="exampleInputEmail1" tabindex="3" placeholder="Email" ng-model="loginData.username" required>
+                        <input type="password"  id="exampleInputPassword1" placeholder="Lozinka" tabindex="4" ng-model="loginData.password" required>
+						
+						<div class="address">
+                            <a class="forgot" href="#">Forgot Your Password?</a>
+                            <input type="submit"  ng-click="login()" value="Prijavi se" />
+                        </div>
+                        <div data-ng-hide="message == ''" class="alert alert-danger">
+                                {{message}}
+                            </div>
+					</div>
+				</div>
+				<div class="col-md-6 account-right account-left">
+					<h3>Novi korisnik? Napravite svoj nalog</h3>
+					<p>Kreiranjem naloga u našoj prodavnici, moći ćete brže provjeriti proces provjere,
+							čuvati više adresa za slanje, pregledati i pratiti naloge na svom nalogu i još mnogo toga.</p>
+							
+					<a ng-href="#!register/{{whereto}}">Napravi nalog</a>
+				</div>
+				<div class="clearfix"></div>
+            </div>
+        </form>
+		</div>
+	</div>
+	<!--account-end-->

@@ -1,0 +1,62 @@
+
+<div class="alert alert-warning" role="alert" ng-show="ngCart.getTotalItems() === 0">
+        Vaša korpa je prazna
+    </div>
+    
+    <div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
+    
+        <table class="table table-striped ngCart cart">
+    
+            <thead>
+            <tr>
+               
+                <th>Proizvod</th>
+                <th>Količina</th>
+                <th>Cena</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr ng-show="ngCart.getTax()">
+                
+                <td></td>
+                <td></td>
+                <td>Porez ({{ ngCart.getTaxRate() }}%):</td>
+                <td>{{ ngCart.getTax()  }} Rsd</td>
+            </tr>
+            <tr ng-show="ngCart.getShipping()">
+                
+                <td></td>
+                <td></td>
+                <td>Slanje:</td>
+                <td>{{ ngCart.getShipping()  }} Rsd</td>
+            </tr>
+            <tr>
+               
+                <td></td>
+                <td></td>
+                <td>Total:</td>
+                <td>{{ ngCart.totalCost()}} Rsd</td>
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr ng-repeat="item in ngCart.getCart().items track by $index">
+                
+    
+                <td>{{ item.getName() }}</td>
+                <td>{{ item.getQuantity() | number }}&nbsp;&nbsp;
+                   </td>
+                <td>{{ item.getPrice()}} Rsd</td>
+                <td>{{ item.getTotal()}} Rsd</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <style>
+        .ngCart.cart span[ng-click] {
+            cursor: pointer;
+        }
+        .ngCart.cart .glyphicon.disabled {
+            color:#aaa;
+        }
+    </style>

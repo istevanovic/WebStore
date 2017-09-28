@@ -1,0 +1,85 @@
+<div>
+    <div class="container">
+        <div class="order finnish" ng-show="formhide">
+            <div class="panel panel-default">
+                <div class="panel-heading">Vaša narudzbenica: na dan {{date | date:'dd-MM-yyyy'}}</div>
+                <div class="panel-body">
+                    <div class="col-md-5">
+                        <h3>Adresa za slanje i plaćanje</h3>
+                        <div class="adresa_nar">
+                        {{narudzbenica.placanjeIme}} {{narudzbenica.placanjePrezime}}<br/> 
+                        {{narudzbenica.placanjeAdresa}},
+                        {{narudzbenica.placanjeGrad}}, 
+                        {{narudzbenica.placanjeZIP}}<br/>
+                         {{narudzbenica.placanjeDrzava}}
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3> Proizvodi </h3>
+                        <ngcart-cart template-url="template/ngCart/orderproizvodi.html"></ngcart-cart>
+                    </div>
+                </div>
+            </div>
+            <div class="address">
+                <input type="submit" class="pull-right" ng-click="potvrdi(narudzbenica)" value="Potvrdi" />
+                <input type="submit" class="pull-left" ng-click="promena(narudzbenica)" value="Promeni podatke" />
+            </div>
+        </div>
+        <div ng-hide="formhide">
+            <div class="col-md-5  account-left">
+                <h4>Proizvodi u vašoj korpi</h4>
+                <p>pregledajte još jednom </p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">Stanje vaše korpe</div>
+                    <div class="panel-body">
+                        <ngcart-cart template-url="template/ngCart/korpaproizvodi.html"></ngcart-cart>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 account-left">
+                <h4>Unos adrese za slanje i plaćanje</h4>
+                <p>Unesite ime i adresu primaoca (<small style="color:#880909;">Polja obeležena * su obavezna!</small>)</p>
+                <div class="account-bottom">
+                    <form name="formAdresa"  ng-submit="unesiPodatkeKorisnik(order)" novalidate>
+                        <input type="text"  id="placanjeIme" tabindex="3" name="placanjeIme" placeholder="Ime*" ng-model="order.placanjeIme" 
+                        ng-class="{ 'form-input-error' :formAdresa.placanjeIme.$invalid && !formAdresa.placanjeIme.$pristine  }"  required>
+                        <div ng-show="formAdresa.placanjeIme.$invalid && !formAdresa.placanjeIme.$pristine" class="help-block form-error">Morate uneti Ime.</div>
+
+                        <input type="text" id="placanjePrezime" tabindex="3" name="placanjePrezime" placeholder="Prezime*" ng-model="order.placanjePrezime" 
+                        ng-class="{ 'form-input-error' :formAdresa.placanjePrezime.$invalid && !formAdresa.placanjePrezime.$pristine  }"   required>
+                            <div ng-show="formAdresa.placanjePrezime.$invalid && !formAdresa.placanjePrezime.$pristine" class="help-block form-error">Morate uneti Prezime.</div>
+
+                        <input type="text" id="placanjeAdresa" tabindex="3" placeholder="Adresa*" name="placanjeAdresa" ng-model="order.placanjeAdresa" 
+                        ng-class="{ 'form-input-error' :formAdresa.placanjeAdresa.$invalid && !formAdresa.placanjeAdresa.$pristine  }"    required>
+                            <div ng-show="formAdresa.placanjeAdresa.$invalid && !formAdresa.placanjeAdresa.$pristine" class="help-block form-error">Morate uneti Adresu.</div>
+
+                        <input type="text" id="placanjeGrad" tabindex="3" placeholder="Grad*" name="placanjeGrad" ng-model="order.placanjeGrad" 
+                        ng-class="{ 'form-input-error' :formAdresa.placanjeGrad.$invalid && !formAdresa.placanjeGrad.$pristine  }"    required>
+                        <div ng-show="formAdresa.placanjeGrad.$invalid && !formAdresa.placanjeGrad.$pristine" class="help-block form-error">Morate uneti Grad.</div>
+
+                        <input type="text" id="placanjeDrzava" tabindex="3" placeholder="Drzava*" name="placanjeDrzava" ng-model="order.placanjeDrzava" 
+                        ng-class="{ 'form-input-error' :formAdresa.placanjeDrzava.$invalid && !formAdresa.placanjeDrzava.$pristine  }"  required>
+                        <div ng-show="formAdresa.placanjeDrzava.$invalid && !formAdresa.placanjeDrzava.$pristine" class="help-block form-error">Morate uneti Državu.</div>
+
+                        <input type="text" id="placanjeZIP" tabindex="3" placeholder="ZIP*" ng-model="order.placanjeZIP" name="placanjeZIP" 
+                        ng-class="{ 'form-input-error' :formAdresa.placanjeZIP.$invalid && !formAdresa.placanjeZIP.$pristine  }"   required>
+                        <div ng-show="formAdresa.placanjeZIP.$invalid && !formAdresa.placanjeZIP.$pristine" class="help-block form-error">Morate uneti ZIP.</div>
+                        
+                        
+
+                        <div class="address">
+                            <button type="submit" class="checkout-buttons pull-right" >Unesi</button>
+                        </div>
+                        <div data-ng-hide="message == ''" class="alert alert-danger">
+                            {{message}}
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="account"></div>
+<br/>
+<!--account-end-->

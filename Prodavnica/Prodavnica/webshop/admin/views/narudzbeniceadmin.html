@@ -1,0 +1,42 @@
+<table class="table table-striped" >
+        <thead>
+            <tr>
+                <th width="50">ID</th>
+                <th width="250">Korisnik - email</th>
+                <th width="200">Adresa za slanje</th>
+                <th width="220">Datum narudzbenice </th>
+                <th></th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat-start="nar in narudzbenice">
+                <td>{{nar.idNarudzbenica}}</td>
+                <td>{{nar.username}} <br/>email ovde</td>
+                <td>{{nar.placanjeIme}} {{nar.placanjePrezime}}<br/>
+                    {{nar.placanjeAdresa}},{{nar.placanjaGrad}} {{nar.placanjeZIP}},{{nar.placanjeDrzava}}</td>
+                
+                <td>{{nar.datumFormiranjaNar | date:'dd-MM-yyyy HH:mm:ss' }}
+                   
+                </td>
+
+                <td><div ng-click="itemshide=!itemshide;">
+                    <span ng-show="itemshide"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> Proizvodi</span>
+                    <span ng-hide="itemshide"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span> </span>
+                    </div></td>
+                </tr>
+                <tr ng-repeat-end ng-hide="itemshide">
+                        <td></td>
+                        <td></td>
+                    <td colspan="3"> <div >
+                        Proizvodi:
+                        <ul>
+                            <li data-ng-repeat="narpr in nar.narudzbenicaProizvod"> {{narpr.nazivProizvod}} {{narpr.kolicina}}  - cena {{narpr.cenaProizvod}} ({{narpr.popustProizvod}} ) </li>
+                        </ul>
+                    
+                    </div></td>
+               
+            </tr>
+            
+        </tbody>
+    </table>

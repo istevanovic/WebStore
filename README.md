@@ -1,1 +1,1 @@
-WebStore
+This is my bachelor thesis, a SPA implementation of a web-store. Backend is implemented with Microsoft .NET API Technology, and frontend is implemented with Angular. Also, Entity Framework is used for database requests and controller generation.
